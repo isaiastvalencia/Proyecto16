@@ -3,7 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{93717F32-5ECA-48FD-9132-50A5CE7B5391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "WebApplication1.Tests\WebApplication1.Tests.csproj", "{555C229A-1917-44A3-BB63-C5600EB8E70C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C43E61F-F480-4ACC-A317-0CA77B94188A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93717F32-5ECA-48FD-9132-50A5CE7B5391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93717F32-5ECA-48FD-9132-50A5CE7B5391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93717F32-5ECA-48FD-9132-50A5CE7B5391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93717F32-5ECA-48FD-9132-50A5CE7B5391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555C229A-1917-44A3-BB63-C5600EB8E70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555C229A-1917-44A3-BB63-C5600EB8E70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555C229A-1917-44A3-BB63-C5600EB8E70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555C229A-1917-44A3-BB63-C5600EB8E70C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
